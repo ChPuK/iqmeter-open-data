@@ -33,6 +33,8 @@ The headline: six classic puzzles that only **16–24%** of test-takers solved. 
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit “IQMeter (iqmeter.cloud)” with a link. Citation details are in `CITATION.cff`.
 
+Mirrors: [GitHub](https://github.com/ChPuK/iqmeter-open-data) · [Hugging Face](https://huggingface.co/datasets/ChPuK/iqmeter-traps).
+
 Contact: support@iqmeter.cloud
 
 ---
