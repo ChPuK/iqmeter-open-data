@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "IQMeter trap puzzles: answers in an online IQ test"
+authors:
+  - name: "IQMeter"
+    website: "https://iqmeter.cloud"
+date-released: "2026-11-09"
+version: "2026-11-09"
+license: CC-BY-4.0
+url: "https://iqmeter.cloud/en/traps/"
+keywords:
+  - IQ test
+  - puzzles
+  - cognitive bias
+  - base rate fallacy
+  - open data

@@ -1,0 +1,41 @@
+{
+  "name": "iqmeter-traps",
+  "title": "IQMeter trap puzzles: answers in an online IQ test",
+  "version": "2026-11-09",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}],
+  "homepage": "https://iqmeter.cloud/en/traps/",
+  "resources": [
+    {
+      "name": "trap_puzzles",
+      "path": "data/trap_puzzles.csv",
+      "format": "csv",
+      "schema": {"fields": [
+        {"name": "question_id", "type": "integer"},
+        {"name": "question_ru", "type": "string"},
+        {"name": "question_en", "type": "string"},
+        {"name": "option_position", "type": "integer", "description": "Option position in the test database; -1 = ran out of time"},
+        {"name": "option_ru", "type": "string"},
+        {"name": "option_en", "type": "string"},
+        {"name": "is_correct", "type": "integer"},
+        {"name": "answers", "type": "integer"},
+        {"name": "share_pct", "type": "number", "description": "answers / question_answers * 100"},
+        {"name": "question_answers", "type": "integer"},
+        {"name": "snapshot_date", "type": "date"}
+      ]}
+    },
+    {
+      "name": "categories",
+      "path": "data/categories.csv",
+      "format": "csv",
+      "schema": {"fields": [
+        {"name": "category", "type": "string"},
+        {"name": "difficulty", "type": "integer", "description": "1 easy, 2 medium, 3 hard"},
+        {"name": "questions", "type": "integer"},
+        {"name": "answers", "type": "integer"},
+        {"name": "correct_pct", "type": "number"},
+        {"name": "ran_out_of_time_pct", "type": "number"},
+        {"name": "snapshot_date", "type": "date"}
+      ]}
+    }
+  ]
+}
